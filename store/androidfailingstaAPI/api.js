@@ -1,6 +1,6 @@
 import axios from "axios"
 const androidfailingstaAPI = axios.create({
-  baseURL: "https://android-failing-sta-76718-prod.herokuapp.com",
+  baseURL: "https://android-failing-sta-76718.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
